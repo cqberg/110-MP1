@@ -26,6 +26,10 @@
 
 /* This portion is for the Nav-Bars of the website */
 
+body{
+    background-color: var(--background-color);
+}
+
 nav{
     display: flex;
     gap: 12px;
@@ -53,8 +57,9 @@ nav{
 
 .navigation-items{
     display: flex;
-    margin-right: 20px;
+    margin-right: 12px;
     align-items: center;
+    justify-content: center;
 }
 
 .navigation-items a{
@@ -83,7 +88,6 @@ nav{
     font-family: var(--text-font);
     font-size: var(--h5);
     font-weight: 400;
-    margin-right: 16px;
     cursor: pointer;
 }
 
