@@ -26,6 +26,10 @@
 
 /* This portion is for the Nav-Bars of the website */
 
+body{
+    background-color: var(--background-color);
+}
+
 nav{
     display: flex;
     gap: 12px;
