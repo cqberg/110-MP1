@@ -1,6 +1,12 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
 
 :root {
