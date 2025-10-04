@@ -138,6 +138,10 @@ nav{
     font-family: var(--text-font);
 }
 
+.ItemSection{
+    margin: 100px 0;
+}
+
 .ItemSection h1{
     font-family: var(--text-font);
     font-size: var(--h1);
@@ -181,3 +185,6 @@ nav{
     position: absolute;
     left: 47%
 }
+
+/* For Contacts.html */
+
