@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Variables for colors  */
+    --background-color: #F1F5F0 ;
+    --text-color: #8B1E3F;
+    --second-text-color: #212A40;
+    --primary-color: #E9C120; 
+    --accent-color: #D05E1D;
+    --secondary-color: #F8E9A9;
+
+    /* Variables for text sizes  */
+    --h1: 52px;
+    --h2: 48px;
+    --h3: 36px;
+    --h4: 20px;
+    --h5: 16px;
+
+    /* mag add nalang tayo ng variables if merong value na repetitive */
+
+    --text-font: "Inter", sans-serif;
+}
+
+/* This portion is for the Nav-Bars of the website */
+
+nav{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--second-text-color);
+    color: var(--primary-color);
+    max-width: 100%;
+    height: 10vh;
+    padding: 4px;
+}
+
+#Logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+#Logo div{
+    font-size: var(--h1);
+    font-weight: 700;
+    font-family: var(--text-font);
+}
+
+.navigation-items{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navigation-items a{
+    margin-right: 64px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--h4);
+    font-weight: 400;
+    font-family: var(--text-font);
+}
+
+.navigation-items a:hover{
+    color: #ffffff;
+    transition: ease-in-out;
+    transition-duration: 0.5ms;
+}
+
+.navigation-items button{
+    padding: 4px;
+    width: 100px;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    font-family: var(--text-font);
+    font-size: var(--h5);
+    font-weight: 400;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.navigation-items button:hover{
+    color: #e7cf6e;
+    background-color: #e4671f;
+}
