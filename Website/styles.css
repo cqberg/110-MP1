@@ -91,3 +91,180 @@ nav{
     color: #e7cf6e;
     background-color: #e4671f;
 }
+
+/*Home page*/
+
+h1{
+    font-family: var(--text-font);
+    font-size: var(--h1);
+    color: var(--text-color);
+}
+
+p{
+    font-family: var(--text-font);
+    font-size: var(--h4);
+    color: var(--text-color)
+}
+
+.nature{
+    font-family: var(--text-font);
+    font-size: var(--h2);
+    color: var(--text-color)
+}
+
+.herobutton{
+    font-family: var(--text-font);
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    width: 119px;
+    height: 27px;
+    border-radius: 24px;
+    border: none;
+}
+
+.herobutton:hover{
+    color: #ff8800;
+    background-color: #000000;
+}
+
+.content{
+    display: flex;
+    margin: 24px 12px;
+    justify-content: center;
+}   
+
+.picture{
+    background-color: lightgray;
+    width: 49%;
+    height: 92vh;
+}
+
+.description1{
+    display: flex;
+    flex-direction: column;
+    background-color: #d3eafa;
+    width: 49%;
+    height: 92vh;
+    justify-content: center;
+    padding: 20px;
+}
+
+.description2{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0daf3;
+    width: 49%;
+    height: 92vh;
+    justify-content: center;
+    padding: 20px;
+}
+
+.description3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 67, 70, .16);
+    width: 49%;
+    height: 92vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    height: 20vh;
+}
+
+.contact h2{
+    text-align: center;
+    font-family: var(--text-font);
+    font-size: var(--h3);
+    color: var(--accent-color);
+}
+
+.contact p{
+    font-family: var(--text-font);
+    color:var(--accent-color);
+}
+
+form{
+    position: absolute;
+    left: 55%;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    width: 300%;
+}
+
+input[type=text]::placeholder{
+    font-family: var(--text-font);
+    font-size: var(--h5);
+    color: var(--accent-color);
+}
+
+input[type=text]:focus-within{
+    outline: none;
+    color: var(--accent-color)
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 24px 12px;
+}
+
+.pic{
+    display: flex;
+    background-color: lightgray;
+    width: 49%;
+    height: 48vh;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+}
+
+.time h3{
+    font-family: var(--text-font);
+    font-size: var(--h4);
+    color: var(--second-text-color);
+}
+
+.time p{
+    font-family: var(--text-font);
+    font-size: var(--h5);
+    color: var(--second-text-color)
+}
+
+.social h3{
+    font-family: var(--text-font);
+    font-size: var(--h4);
+    color: var(--second-text-color);
+}
+
+.social p{
+    font-family: var(--text-font);
+    font-size: var(--h5);
+    color: var(--second-text-color)
+}
+
+.location h3{
+    font-family: var(--text-font);
+    font-size: var(--h4);
+    color: var(--second-text-color);
+}
+
+.location p{
+    font-family: var(--text-font);
+    font-size: var(--h5);
+    color: var(--second-text-color)    
+}
