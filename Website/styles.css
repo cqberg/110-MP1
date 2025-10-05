@@ -452,10 +452,24 @@ footer{
     color: var(--second-text-color)
 }
 
+.social div{
+    display: flex;
+    align-items: center;
+    margin: 5px 6px;
+    gap: 10px;
+}
+
 .social h3{
     font-family: var(--text-font);
     font-size: var(--h4);
     color: var(--second-text-color);
+}
+
+.location div{
+    display: flex;
+    align-items: center;
+    margin: 5px 6px;
+    gap: 10px;
 }
 
 .social p{
