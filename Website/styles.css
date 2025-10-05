@@ -440,6 +440,13 @@ footer{
     height: 24vh;
 }
 
+.time div{
+    display: flex;
+    align-items: center;
+    margin: 5px 6px;
+    gap: 10px;
+}
+
 .time h3{
     font-family: var(--text-font);
     font-size: var(--h4);
