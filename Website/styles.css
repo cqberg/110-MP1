@@ -42,10 +42,12 @@ nav{
     justify-content: space-between;
     background-color: var(--second-text-color);
     color: var(--primary-color);
+    width: 100%;
     max-width: 100%;
     height: 10vh;
     padding: 4px;
-}
+    /*osition: fixed;*/
+ }
 
 #Logo {
     display: flex;
@@ -129,6 +131,7 @@ p{
     height: 27px;
     border-radius: 24px;
     border: none;
+    cursor: pointer;
 }
 
 .herobutton:hover{
@@ -215,9 +218,9 @@ input[type=text]::placeholder{
     color: var(--accent-color);
 }
 
-input[type=text]:focus-within{
+.email input[type=text]:focus-within{
     outline: none;
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .display{
@@ -260,7 +263,7 @@ input[type=text]:focus-within{
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
-.searchInput{
+.searchContainer .searchInput{
     border: none;
     outline: none;
     background-color: transparent;
@@ -270,10 +273,14 @@ input[type=text]:focus-within{
     width: 100%;
 }
 
-.searchInput::placeholder, .searchIcon{
+.searchContainer .searchInput::placeholder, .searchIcon{
     color: var(--secondary-color);
     font-weight: 200;
     font-family: var(--text-font);
+}
+
+.shopIcon{
+    cursor: pointer;
 }
 
 .ItemSection{
@@ -306,6 +313,13 @@ input[type=text]:focus-within{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.02);
+    border: none;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
 }
 
 .ItemSection button{
@@ -322,6 +336,22 @@ input[type=text]:focus-within{
     cursor: pointer;
     position: absolute;
     left: 47%
+}
+
+.ItemSection button:hover{
+    color: #e7cf6e;
+    background-color: #e4671f;
+}
+
+.extraItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color:#E9C120;
+    width: 98%;
+    margin: auto;
+    border-radius: 12px;
 }
 
 /*About section*/
@@ -371,13 +401,43 @@ input[type=text]:focus-within{
     height: 512px;   
 }
 
+/* Contacts section */
+
+.locationSection{
+    width: 98%;
+    margin: auto;
+}
+
+.locationContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locationDescription{
+    width: 50%;
+    height: 32vh;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.locationPicture{
+    margin: 12px 0;
+    height: 80vh;
+    width: 50%;
+    padding: 12px;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+}
 
 /*Footer section*/
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 16vh;
+    height: 24vh;
 }
 
 .time h3{
