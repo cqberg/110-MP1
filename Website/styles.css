@@ -324,6 +324,54 @@ input[type=text]:focus-within{
     left: 47%
 }
 
+/*About section*/
+
+.team h2{
+    font-family: var(--text-font);
+    font-size: var(--h2);
+}
+
+.about h3{
+    font-family: var(--text-font);
+    font-size: var(--h3);
+    color: var(--second-text-color);
+}
+
+.about p{
+    font-family: var(--text-font);
+    font-size: var(--h4);
+    color: var(--second-text-color);
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    margin: 24px 12px;
+    justify-content: center;
+    gap: 160px;
+}
+
+.face{
+    display: flex;
+    background-color: #f0daf3;
+    width: 540px;
+    height: 512px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 512px;   
+}
+
+
 /*Footer section*/
 footer{
     display: flex;
