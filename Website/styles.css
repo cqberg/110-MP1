@@ -414,12 +414,13 @@ input[type=text]::placeholder{
     margin: 24px 12px;
     justify-content: center;
     gap: 160px;
+    text-align: center;
 }
 
 .face{
     display: flex;
     background-color: #f0daf3;
-    width: 540px;
+    width: 46%;
     height: 512px;
 }
 
